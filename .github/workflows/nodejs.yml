@@ -34,3 +34,5 @@ jobs:
         with:
           coverageCommand: make test-coverage
           debug: true
+      - name: run build
+        run: make build
